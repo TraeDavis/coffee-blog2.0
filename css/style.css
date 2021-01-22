@@ -71,7 +71,7 @@ ul:last-of-type{
     display: block;
     text-align: center;
     padding: 1.5rem;
-    margin: 2rem;
+    margin: 2rem 4.5rem;
     color: white;
     font-weight: 700;
     text-transform: uppercase;
@@ -88,7 +88,7 @@ ul:last-of-type{
     .btn{
         display: inline-block;
         flex-basis: auto;
-        margin: 1rem 8rem 1rem 0;
+        margin: 1rem 8rem 2rem 0;
         
     }
 }
@@ -182,7 +182,7 @@ nav a:hover{
     }
     .blog h2{
         text-align: left;
-        margin-left: 2%;
+        margin-left: 1rem;
     }
     .blog{
         flex-basis: 66.6%;
@@ -195,6 +195,8 @@ nav a:hover{
 }
 aside .btn{
     background-color: rgb(110, 49, 5);
+    width: 16rem;
+    margin: 1.5rem auto;
 }
 
 @media(min-width:768px){
